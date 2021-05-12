@@ -195,19 +195,25 @@ body {
 
       grid-row-gap: 30px !important;
       grid-template-areas:
-        "card1"
+        "card4"
         "card2"
         "card3"
-        "card4" !important;
+        "card1" !important;
 
       grid-template-columns: repeat(1, 1fr) !important;
       grid-template-rows: repeat(4, 1fr) !important;
 
       .card {
+        width: 90% !important;
+        max-width: 500px;
         height: 210px !important;
 
+        p {
+          max-width: 340px;
+        }
+
         .icon {
-          align-items: baseline !important;
+          align-items: center !important;
 
           img {
             height: 66%;
